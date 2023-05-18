@@ -24,7 +24,7 @@ logged_in_url = input("What is the url that I will be redirected to after loggin
 dictionary_address = input("Enter address of dictionary: ")
 
 # set browser
-s = Service("C:\\Users\\hsn\\Desktop\\coding\\dpa\\chromedriver.exe") # you need to replace it according to your own system
+s = Service(".\\chromedriver.exe") # you need to replace it according to your own system
 driver = webdriver.Chrome(service=s)
 
 dictionary = open(dictionary_address)
