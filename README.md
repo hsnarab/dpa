@@ -1,4 +1,4 @@
-# dpa
+# dpa (dictionary password attacker)
 A dictionary password attacker with python
 ### I used this libs for this project:
 1. selenium
